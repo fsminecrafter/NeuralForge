@@ -1,0 +1,11 @@
+# NeuralForge Studio — Python dependencies
+# Install: pip install -r requirements.txt
+#
+# Core (always required)
+requests>=2.31.0
+
+# Optional: airllm for loading quantized models locally (huge models on <16GB VRAM)
+# Uncomment to include in automated installs:
+# airllm>=0.2.0
+# torch>=2.0.0
+# transformers>=4.40.0
